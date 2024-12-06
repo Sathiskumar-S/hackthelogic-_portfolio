@@ -238,7 +238,7 @@ footer {
   /* --------------About Section--------------- */
   .about{
     width:100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #00ff6a;
     padding: 100px;
  
@@ -311,4 +311,109 @@ footer {
   .icon{
     color: white;
     font-size: 40px;
+  }
+  @media only screen and (min-width: 1150px) and (max-width: 1350px) {
+    .abt-img {
+      width: 420px;
+      height: 400px;
+      
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1150px) {
+    .abt-img {
+      width: 320px;
+      height: 300px;
+    
+    }
+  }
+  /* --------------Challenge Section--------------- */
+  .challenge{
+    width: 100%;
+    min-height: 100vh;
+    background-color: gainsboro;
+    padding: 50px;
+  }
+  .ch-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 80px;
+    
+    border-bottom: 2px solid gold;
+   
+  }
+  .ch-head div h1{
+    width: 100%;
+    
+  }
+  .ch-head div+div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+  }
+  .ch-btn{
+    width: 200px;
+  }
+  .ch-content{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    /* background-color: violet; */
+  }
+  .ch-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+   
+  }
+  .ch-left h5{
+    color: gray;
+  }
+  .ch-left h1{
+    font-weight: 300;
+  }
+  .ch-more-btn{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .ch-right{
+    width: 60%;
+    position: relative;
+  }
+  .ch-pic{
+    width: 45%;
+    height: 450px;
+   position: absolute;
+   right: 10%;
+   top: -20%;
+
+    
+  }
+  /* --------------------Business Style ------------ */
+  .business{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    position: relative;
+    padding-top: 20vh;
+  }
+  .bus-card{
+    width: 600px;
+    height: 400px;
+    background-color: #e3ff46;
+    position: absolute;
+    left: 30%;
+    top: 0;
+  }
+  .bus-content{
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+    padding-top: 200px;
+    background-color: #000;
   }
